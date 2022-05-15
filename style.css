@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    background-color:#17130a;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+ 
+
+
+.main-container {
+    display:flex;
+    flex-direction:column;
+    width: 75%;
+    padding-left: 300px;
+    padding-right:300px
+    }
+    
+    
+.top-container{
+    display:flex;
+    background-color:#17130a;
+   
+    justify-content:space-between;
+     
+    }
+ 
+
+.play-area {
+   display:flex;
+   flex-direction:column ;
+   gap:150px;
+   align-items: center;
+   padding-top: 150px;
+   
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    padding-top:150px;
+    gap:150px
+      
+}
+
+.enemy-move,.player-move {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: rgb(142, 114, 63);
+    border: solid 2px #fbf2e1;
+    
+}  
+    
+.player-score {
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    font-size: 5rem;
+    text-align: center;
+    color:  #fbf2e1;
+    width: 33%;
+    
+     
+}   
+
+ 
+
+
+button{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: #8e723f;
+    border: solid 2px #fbf2e1;
+    
+}
+ img{
+     height: 200px;
+     
+ }

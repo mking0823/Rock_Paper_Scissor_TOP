@@ -1,0 +1,59 @@
+Player presses rock paper or scissor
+add choise to var playerChoice
+
+
+computer chooses random rock paper scissors 
+
+
+if playerChoice == computerChoice;
+return draw 
+END
+
+ maybe connect each of these to a button:
+like pressing rock only runs the first function 
+
+
+if player pick rock  / scissor
+computer picks paper - lose
+computer pick scissors -win
+
+if player picks paper 
+computer picks scissor -lose
+computer picks rock - win
+
+
+if player picks scissor
+computer picks rock -lose 
+computer picks scissor- win
+
+
+if playerChoice == computerChoice;
+return draw 
+ "You Lose!  playerSelection beats  computerSelection"
+
+if player wins add 1 to  player score
+
+if computer wins add 1 to computer score
+
+
+Loop
+  Get users Choice
+  Compare user input is (Rock Paper or Scissor)
+    If user input not valid
+      Tell -Invalid Choice
+  Else
+    Generate Random Computer Choice (Rock Paper Scissor)
+     Compare User and Computer Choice
+  If same choice 
+    Tell Message it is a Tie 
+  If PLayer Choice Wins (rock/scissor)(paper/rock)(scissor/paper)
+    Tell Win Statement
+  Else 
+    Tell Lose Statement 
+
+End Loop 
+
+ 
+
+
+

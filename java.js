@@ -25,14 +25,14 @@ playRound(playerMove, computerMove)
     if ( computerMove == playerMove) //Draw condition 
     alert("it is a tie");
 
-    else if (playerMove == "ROCK" && computerMove == "SCISSORS") //Win Condition 
-    alert("ROCK BEATS SCISSORS. YOU WIN!!!");
+    else if (playerMove == "ROCK" && computerMove == "SCISSORS"|| playerMove == "PAPER" && computerMove == "ROCK"||playerMove == "SCISSORS" && computerMove == "PAPER") //Win Condition 
+    alert(`${playerMove} BEATS ${computerMove}. YOU WIN!!!`);
     
-    else if ( playerMove == "PAPER" && computerMove == "ROCK")
-    alert("PAPER BEATS ROCK. YOU WIN!!!");
+   // else if ( playerMove == "PAPER" && computerMove == "ROCK")
+   // alert("PAPER BEATS ROCK. YOU WIN!!!");
     
-    else if (playerMove == "SCISSORS" && computerMove == "PAPER")
-    alert("SCISSORS BEATS PAPER. YOU WIN!!!"); 
+    //else if (playerMove == "SCISSORS" && computerMove == "PAPER")
+    //alert("SCISSORS BEATS PAPER. YOU WIN!!!"); 
     
     else                     //lose Conidtion
     alert(`YOU LOSE!!! ${computerMove} BEATS ${playerMove}.`   );}

@@ -4,17 +4,15 @@
 // Global Variables
 let playerScore = 0;
 let ComputerScore =0;
-
-
-let randomNumber = Math.floor(Math.random() * 2)  //NEXT 3 LINES RADOMIZES COMPUTER CHOICES
-
+let randomNumber = Math.floor(Math.random() * 3)  //NEXT 3 LINES RADOMIZES COMPUTER CHOICES
 const computerChoices = ["SCISSORS", "PAPER", "ROCK"];
-
-computerMove = (computerChoices[randomNumber])
+let computerMove = (computerChoices[randomNumber])
  
+console.log(computerMove)
 
-
-let playerInput = prompt("ROCK PAPER SCISSOR"); // Get users Choice
+/*
+while (playerScore < 3 || ComputerScore <3 ){}
+    let playerInput = prompt("ROCK PAPER SCISSOR"); // Get users Choice
 
 let playerMove = playerInput.toUpperCase();  // Make input uniform
 
@@ -46,4 +44,4 @@ playRound(playerMove, computerMove)
 
     
     console.log(computerMove, playerMove)
-    console.log(randomNumber)
+    console.log(randomNumber)*/
